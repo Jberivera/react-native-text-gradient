@@ -16,6 +16,6 @@ public class RNTextGradient extends ReactTextView {
   @Override
   protected void onSizeChanged(int w, int h, int oldw, int oldh) {
     // Log.d(ReactConstants.TAG, "view " + String.valueOf(w) + " " + String.valueOf(h));
-    // Log.d(ReactConstants.TAG, String.valueOf(getText() instanceof SpannableString));
+    Log.d(ReactConstants.TAG, String.valueOf(getText() instanceof SpannableString));
   }
 }
